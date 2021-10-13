@@ -121,9 +121,8 @@ body {
 
 #reserve {
   height: 100vh;
-  background-color: rgb(255, 208, 0);
   color: black;
-  background-image: url('/img/Bg\ reserva.jpg');
+  background-image: url('../img/bg-reserve.jpg');
   background-size: contain;
   background-repeat: no-repeat;
 }
