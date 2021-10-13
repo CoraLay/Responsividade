@@ -115,6 +115,7 @@ body {
 #reserve {
   height: 100vh;
   background-color: rgb(255, 208, 0);
+  color: black;
 }
 
 #reserve .footer {
@@ -123,6 +124,7 @@ body {
   justify-content: space-between;
   align-items: baseline;
   padding: 0 3rem;
+  color: white;
 }
 
 #reserve .footer ul {
