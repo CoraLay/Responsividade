@@ -116,6 +116,9 @@ body {
   height: 100vh;
   background-color: rgb(255, 208, 0);
   color: black;
+  background-image: url('/img/Book\ Formgulliver\ reserva.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #reserve .footer {
