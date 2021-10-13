@@ -116,18 +116,76 @@ body {
 ***********************/
 
 #reserve h3 {
-  padding-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #reserve {
-  height: 100vh;
+  min-height: 100vh;
   color: black;
   background-image: url('../img/bg-reserve.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 
-#reserve .footer {
+#reserve form{
+  background-color: #fff;
+  padding: 20px 50px 30px 50px;
+  max-width: 960px;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#reserve form input,
+#reserve form textarea{
+  background-color: #DFDEDE;
+  border: 1px solid #000;
+  padding: 10px;
+  width: 100%;
+}
+
+#reserve form .input{
+  padding: 10px;
+}
+
+#reserve form .width-50{
+  flex-basis: 50%;
+}
+
+#reserve form .width-100{
+  flex-basis: 100%;
+}
+
+#reserve form button{
+  width: 100px;
+  height: 40px;
+  margin: 3px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #E5E5E5;
+  border: none;
+  outline: none;
+  color: #000;
+}
+
+#reserve form button.reservar{
+  background-color: #04D361;
+  color: #FFF;
+}
+
+#reserve .text-right{
+  text-align: right;
+}
+
+#footer {
   background-color: orange;
   display: flex;
   justify-content: space-between;
@@ -136,16 +194,16 @@ body {
   color: white;
 }
 
-#reserve .footer ul {
+#footer ul {
   list-style-type: none;
   display: flex;
 }
 
-#reserve .footer ul li {
+#footer ul li {
   padding: 1rem;
 }
 
-#reserve .footer ul li a {
+#footer ul li a {
   text-decoration: none;
   color: white;
 }
@@ -184,6 +242,7 @@ body {
 
   #home .overlay p {
     letter-spacing: 0;
+    line-height: 1.5;
   }
 
 }
