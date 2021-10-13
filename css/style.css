@@ -119,12 +119,22 @@ body {
   *        HOME
   ***********************/
 
+  #home .header .nav ul,
+  #home .header
+   {
+    display: inline-block;
+  }
+
+  #home .header .nav ul li {
+    line-height: 1.5rem;
+  }
+
   #home h1 {
     font-size: 3rem;
   }
 
   #home .overlay {
-    padding: 0.5rem;
+    padding: 2rem;
   }
 
   #home .overlay h2 {
