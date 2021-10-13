@@ -103,11 +103,46 @@ body {
 *       HOTELS
 ***********************/
 
+#hotel {
+  background-image: linear-gradient(black, rgb(70, 67, 67));
+  height: 100vh;
+}
+
+#hotel .container h3 {
+  padding-top: 30px;
+}
 
 
+/**********************
+*       RESERVE
+***********************/
 
+#reserve {
+  height: 100vh;
+  background-color: rgb(255, 208, 0);
+}
 
+#reserve .footer {
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 3rem;
+}
 
+#reserve .footer ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#reserve .footer ul li {
+  padding: 1rem;
+}
+
+#reserve .footer ul li a {
+  text-decoration: none;
+  color: white;
+}
 
 
 /**********************
