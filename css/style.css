@@ -110,12 +110,18 @@ body {
   padding: 20px;
 }
 
+#hotel .container{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .info-container {
   text-align: left;
   background-color: #FFF;
   color: #000;
-  padding: 2px 16px;
-  height: 5rem;
+  padding: 10px 16px;
+  min-height: 5rem;
   border-radius: 0 0 1rem 1rem;
 }
 
@@ -128,8 +134,9 @@ body {
 }
 
 img {
-  width: 327px;
-  height: 195px;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
   border-radius: 1rem 1rem 0 0;
 }
 
@@ -141,6 +148,7 @@ img {
 .column-card {
   display: flex;
   flex-direction: column;
+  flex-basis: 50%;
 }
 
 .content-wrapper {
@@ -303,6 +311,10 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .column-card{
+    flex-basis: 100%;
   }
 
   .fas.fa-arrow-left{
