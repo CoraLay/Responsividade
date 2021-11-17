@@ -1,161 +1,191 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"
-    rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  />
+    <title>Gulliver Traveller - Hospedagem</title>
+  </head>
 
-  <title>Gulliver Traveller - Hospedagem</title>
-</head>
+  <body>
+    <section id="home">
+      <header class="header">
+        <p class="logo">Gulliver</p>
+        <nav class="nav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Pontos Turísticos</a></li>
+            <li><a href="">Entretenimento</a></li>
+            <li><a href="">Dicas</a></li>
+            <li>
+              <a href="#Login"><i class="fas fa-user-circle fa-lg"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <h1>Onde se hospedar</h1>
+      <div class="overlay">
+        <label for="search"></label>
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Pesquise seu destino"
+        />
+        <h2>Qual seu próximo destino?</h2>
+        <p>
+          Você sabe que quer viajar, sabe o que gostaria de fazer na sua viagem
+          e conhece seus próprios gostos, mas não sabe exatamente onde ficar?
+          Não se preocupe, é exatamente para isto que estamos aqui e vamos te
+          ajudar nessa escolha, conte com a Gulliver para encontrar a hospedagem
+          perfeita para a sua viagem!
+        </p>
+      </div>
+    </section>
 
-<body>
-  <section id="home">
-    <header class="header">
-      <p class="logo">Gulliver</p>
-      <nav class="nav">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Pontos Turísticos</a></li>
-          <li><a href="">Entretenimento</a></li>
-          <li><a href="">Dicas</a></li>
-          <li>
-            <a href="#Login"><i class="fas fa-user-circle fa-lg"></i></a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <h1>Onde se hospedar</h1>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-      crossorigin="anonymous"></script>
-    <div class="overlay">
-      <label for="search"></label>
-      <input type="text" name="search" id="search" placeholder="Pesquise seu destino" />
-      <h2>Qual seu próximo destino?</h2>
-      <p>
-        Você sabe que quer viajar, sabe o que gostaria de fazer na sua viagem
-        e conhece seus próprios gostos, mas não sabe exatamente onde ficar?
-        Não se preocupe, é exatamente para isto que estamos aqui e vamos te
-        ajudar nessa escolha, conte com a Gulliver para encontrar a hospedagem
-        perfeita para a sua viagem!
-      </p>
-    </div>
-  </section>
-
-  <section id="hotel">
-    <div class="container">
-      <h3>Hoteis em São Paulo</h3>
-      <div class="card-wrapper">
-        <div class="content-wrapper">
-          <i class="fas fa-arrow-left"></i>
-          <div class="column-card">
-
-            <div class="hotel">
-              <img
-                src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/10/47/104774_v10.jpeg"
-                alt="Hotel" />
-              <div class="info-container">
-                <h4><b>Mercure São Paulo Pamplona</b></h4>
-                <p>O hotel Mercure São Paulo Pamplona está localizado no Jardins, bairro repleto de restaurantes
-                  conceituados e boutiques de luxo. Você estará hospedado a 8 KM de carro do Aeroporto de Congonhas e a
-                  800 metros da Avenida Paulista e da estação de Metrô Trianon MASP.</p>
+    <section id="hotel">
+      <div class="container">
+        <h3>Hoteis em São Paulo</h3>
+        <div class="card-wrapper">
+          <div class="content-wrapper">
+            <i class="fas fa-arrow-left"></i>
+            <div class="column-card">
+              
+              <div class="hotel">
+                <img
+                  src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/10/47/104774_v10.jpeg"
+                  alt="Hotel"
+                />
+                <div class="info-container">
+                  <h4><b>Mercure São Paulo Pamplona</b></h4>
+                  <p>O hotel Mercure São Paulo Pamplona está localizado no Jardins, bairro repleto de restaurantes conceituados e boutiques de luxo. Você estará hospedado a 8 KM de carro do Aeroporto de Congonhas e a 800 metros da Avenida Paulista e da estação de Metrô Trianon MASP.</p>
+                </div>
+              </div>
+              <div class="hotel">
+                <img
+                  src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/58/16/5816566.jpeg"
+                  alt="Hotel"
+                />
+                <div class="info-container">
+                  <h4><b>Bourbon Convention Ibirapuera</b></h4>
+                  <p>A apenas 400 metros da estação de metrô Eucaliptos, o Bourbon Convention Ibirapuera oferece instalações para pessoas que procuram agilidade e serviço de qualidade.</p>
+                </div>
               </div>
             </div>
-            <div class="hotel">
-              <img
-                src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/58/16/5816566.jpeg"
-                alt="Hotel" />
-              <div class="info-container">
-                <h4><b>Bourbon Convention Ibirapuera</b></h4>
-                <p>A apenas 400 metros da estação de metrô Eucaliptos, o Bourbon Convention Ibirapuera oferece
-                  instalações para pessoas que procuram agilidade e serviço de qualidade.</p>
+            <div class="column-card">
+              <div class="hotel">
+                <img
+                  src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/19/48/19483366.jpeg"
+                  alt="Hotel"
+                />
+                <div class="info-container">
+                  <h4><b>Renaissance São Paulo Hotel</b></h4>
+                  <p>Hotel sofisticado situado em uma rua comercial. Fica a 3 minutos a pé de uma estação de metrô e a 4 minutos a pé das lojas de luxo da movimentada Avenida Paulista.</p>
+                </div>
+              </div>
+              <div class="hotel">
+                <img
+                  src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/10/45/104515_v10.jpeg"
+                  alt="Hotel"
+                />
+                <div class="info-container">
+                  <h4><b>IBIS Styles São Paulo Anhembi</b></h4>
+                  <p>O ibis Styles Anhembi está à 2 minutos a pé da Rodoviária do Tietê.
+                    Distância de 30 minutos do Aeroporto de São Paulo/Congonhas.
+                    Distância de 40 minutos do Aeroporto Internacional de São Paulo/Guarulhos.</p>
+                </div>
               </div>
             </div>
+
+            <i class="fas fa-arrow-right"></i>
           </div>
-          <div class="column-card">
-            <div class="hotel">
-              <img
-                src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/19/48/19483366.jpeg"
-                alt="Hotel" />
-              <div class="info-container">
-                <h4><b>Renaissance São Paulo Hotel</b></h4>
-                <p>Hotel sofisticado situado em uma rua comercial. Fica a 3 minutos a pé de uma estação de metrô e a 4
-                  minutos a pé das lojas de luxo da movimentada Avenida Paulista.</p>
-              </div>
-            </div>
-            <div class="hotel">
-              <img
-                src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/10/45/104515_v10.jpeg"
-                alt="Hotel" />
-              <div class="info-container">
-                <h4><b>IBIS Styles São Paulo Anhembi</b></h4>
-                <p>O ibis Styles Anhembi está à 2 minutos a pé da Rodoviária do Tietê.
-                  Distância de 30 minutos do Aeroporto de São Paulo/Congonhas.
-                  Distância de 40 minutos do Aeroporto Internacional de São Paulo/Guarulhos.</p>
-              </div>
-            </div>
-          </div>
-
-          <i class="fas fa-arrow-right"></i>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="reserve">
-    <h3>Faça a sua reserva</h3>
-    <form action="">
-      <div class="input width-100">
-        <input type="text" name="nome" id="nome" placeholder="Nome" autofocus />
-      </div>
-      <div class="input width-50">
-        <input type="date" name="dataDeEntrada" id="dataDeEntrada" placeholder="Data de entrada" />
-      </div>
-      <div class="input width-50">
-        <input type="date" name="dataDeSaida" id=dataDeSaida" placeholder="Data de saída">
-      </div>
-      <div class="input width-50">
-        <input type="number" name="numeroDeAdultos" id="numeroDeAdultos" placeholder="Números de adultos" />
-      </div>
-      <div class="input width-50">
-        <input type="number" name="numeroDeCrianças" id="numerosDeCrianças" placeholder="Número de crianças" />
-      </div>
-      <div class="input width-50">
-        <input type="number" name="numeroDeNoites" id="numeroDeNoites" placeholder="Número de noites" />
-      </div>
-      <div class="input width-50">
-        <input type="text" name="codigoPromocional" id="codigoPromocional" placeholder="Código promocional" />
-      </div>
-      <div class="input width-50">
-        <textarea name="observacoes" id="observacoes" cols="30" rows="10" placeholder="Observações"></textarea>
-      </div>
-      <div class="width-100 text-right">
-        <button type="reset">Limpar</button>
-        <button type="button">Cancelar</button>
-        <button type="submit" class="reservar">Reservar</button>
-      </div>
-    </form>
-  </section>
-  <footer id="footer">
-    <span>@ Turma FIAP 2021</span>
-    <ul>
-      <li><a href="#">Contato</a></li>
-      <li><a href="#">Privacidade</a></li>
-      <li><a href="#">Termos</a></li>
-      <li><a href="#">Sobre</a></li>
-    </ul>
-  </footer>
-</body>
-
+    <section id="reserve">
+      <h3>Faça a sua reserva</h3>
+      <form action="">
+        <div class="input width-100">
+          <input type="text" name="nome" id="nome" placeholder="Nome" autofocus/>
+        </div>
+        <div class="input width-50">
+          <input
+            type="date"
+            name="dataDeEntrada"
+            id="dataDeEntrada"
+            placeholder="Data de entrada"
+          />
+        </div>
+        <div class="input width-50">
+          <input type="date" name="dataDeSaida" id=dataDeSaida"
+          placeholder="Data de saída">
+        </div>
+        <div class="input width-50">
+          <input
+            type="number"
+            name="numeroDeAdultos"
+            id="numeroDeAdultos"
+            placeholder="Números de adultos"
+          />
+        </div>
+        <div class="input width-50">
+          <input
+            type="number"
+            name="numeroDeCrianças"
+            id="numerosDeCrianças"
+            placeholder="Número de crianças"
+          />
+        </div>
+        <div class="input width-50">
+          <input
+            type="number"
+            name="numeroDeNoites"
+            id="numeroDeNoites"
+            placeholder="Número de noites"
+          />
+        </div>
+        <div class="input width-50">
+          <input
+            type="text"
+            name="codigoPromocional"
+            id="codigoPromocional"
+            placeholder="Código promocional"
+          />
+        </div>
+        <div class="input width-50">
+          <textarea
+            name="observacoes"
+            id="observacoes"
+            cols="30"
+            rows="10"
+            placeholder="Observações"
+          ></textarea>
+        </div>
+        <div class="width-100 text-right">
+          <button type="reset">Limpar</button>
+          <button type="button">Cancelar</button>
+          <button type="submit" class="reservar">Reservar</button>
+        </div>
+      </form>
+    </section>
+    <footer id="footer">
+      <span>@ Turma FIAP 2021</span>
+      <ul>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Termos</a></li>
+        <li><a href="#">Sobre</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
