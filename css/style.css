@@ -1,0 +1,339 @@
+/**********************
+*        GENERAL
+***********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/**********************
+*        HOME
+***********************/
+
+#home {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../img/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#home .header {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem 0.5rem 1rem;
+  border-bottom: 1px solid white;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#home .header .nav {
+  display: flex;
+  align-items: center;
+}
+
+#home .header .logo {
+  color: rgb(221, 160, 47);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+#home .header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+#home .header nav ul li {
+  margin: 0 20px;
+}
+
+#home .header nav ul li a {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: white;
+}
+
+#home h1 {
+  font-size: 5rem;
+  margin: 5rem 0;
+}
+
+#home .overlay {
+  background-color: rgba(0, 0, 0, 0.70);
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#home .overlay input {
+  border-radius: 100px;
+  border: none;
+  padding: 0.8rem;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#home .overlay h2 {
+  font-size: 3rem;
+  margin: 2.5rem 0;
+  font-weight: 800;
+}
+
+#home .overlay p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+/**********************
+*       HOTELS
+***********************/
+
+#hotel {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(70, 67, 67));
+  min-height: 100vh;
+}
+
+#hotel h3 {
+  padding: 20px;
+}
+
+#hotel .container{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.info-container {
+  text-align: left;
+  background-color: #FFF;
+  color: #000;
+  padding: 10px 16px;
+  min-height: 5rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.hotel:nth-child(1) {
+  margin: 0 1rem 1rem;
+}
+
+.hotel:nth-child(2) {
+  margin: 0 1rem 1rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.column-card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+
+/**********************
+*       RESERVE
+***********************/
+
+#reserve h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#reserve {
+  min-height: 100vh;
+  color: black;
+  background-image: url('../img/bg-reserve.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reserve form{
+  background-color: #fff;
+  padding: 20px 50px 30px 50px;
+  max-width: 960px;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#reserve form input,
+#reserve form textarea{
+  background-color: #DFDEDE;
+  border: 1px solid #000;
+  padding: 10px;
+  width: 100%;
+}
+
+#reserve form .input{
+  padding: 10px;
+}
+
+#reserve form .width-50{
+  flex-basis: 50%;
+}
+
+#reserve form .width-100{
+  flex-basis: 100%;
+}
+
+#reserve form button{
+  width: 100px;
+  height: 40px;
+  margin: 3px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #E5E5E5;
+  border: none;
+  outline: none;
+  color: #000;
+}
+
+#reserve form button.reservar{
+  background-color: #04D361;
+  color: #FFF;
+}
+
+#reserve .text-right{
+  text-align: right;
+}
+
+#footer {
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 3rem;
+  color: white;
+}
+
+#footer ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#footer ul li {
+  padding: 1rem;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/**********************
+*     RESPONSIVE
+***********************/
+
+@media screen and (max-width: 768px) {
+  /**********************
+  *        HOME
+  ***********************/
+
+  #home .header .nav ul,
+  #home .header
+   {
+    display: inline-block;
+  }
+
+  #home .header .nav ul li {
+    line-height: 1.5rem;
+  }
+
+  #home h1 {
+    font-size: 3rem;
+  }
+
+  #home .overlay {
+    padding: 2rem;
+  }
+
+  #home .overlay h2 {
+    font-size: 2rem;
+  }
+
+  #home .overlay p {
+    letter-spacing: 0;
+    line-height: 1.5;
+  }
+
+  /**********************
+  *       RESERVE
+  ***********************/
+
+  #reserve form .width-50{
+    flex-basis: 100%;
+  }
+
+  #reserve form .text-right {
+    text-align: center;
+  }
+
+  #reserve form, #reserve {
+    padding: 20px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .column-card{
+    flex-basis: 100%;
+  }
+
+  .fas.fa-arrow-left{
+    display: none;
+  }
+
+  /**********************
+  *        FOOTER
+  ***********************/
+
+  #footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
